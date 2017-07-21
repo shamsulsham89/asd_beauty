@@ -19,9 +19,20 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-	    <%= render 'layouts/application_header_nav' %>
-	    <%= yield %>
+    <div>
+      <div class="header">
+        <div class="container">
+	        <%= render 'layouts/application_header_nav' %>
+        </div>  
+      </div>  
+      <div class="body">
+        <div class="container">
+	        <%= yield %>
+          <div class="footer text-center">
+            <p>For any support or help you can call us Number 0530216209 or Email at <a href="mailto:glorias.900@hotmail.com">glorias.900@hotmail.com</a></p>
+          </div>
+        </div>  
+      </div>  
     </div>
   </body>
 </html>
