@@ -38,3 +38,12 @@
   button {font-size: 16px;padding: 5px 12px;}
 }
 .form-control{font-size: 16px;}
+
+.thumbnail{
+  background-color: inherit;
+  border: none;
+  img{
+    width: 100%;
+    min-height: 300px;
+  }
+}
